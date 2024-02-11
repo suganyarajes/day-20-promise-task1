@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+*{
+    font-family: 'Afacad', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color:rgb(7, 151, 110);
+   
+    padding: 1% 50px 50px 50px;
+    
+   
+}
+
+
+@media screen and (max-width: 600px){
+    .container{
+        background-color: rgb(153, 155, 57);
+        
+    }
+}
+
+
+
+body {
+    background-color: rgb(2, 50, 27);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
